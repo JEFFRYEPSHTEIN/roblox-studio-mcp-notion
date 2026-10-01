@@ -1,0 +1,18 @@
+{
+  "name": "roblox-studio-mcp-server",
+  "version": "1.0.0",
+  "description": "Independent authenticated HTTP MCP gateway for built-in Roblox Studio tools and Notion",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "start": "node src/launcher.mjs",
+    "start:local": "node src/local.mjs",
+    "test": "node --test test/bridge.test.mjs",
+    "verify": "node src/verify.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.31.0",
+    "zod": "4.6.5"
+  }
+}

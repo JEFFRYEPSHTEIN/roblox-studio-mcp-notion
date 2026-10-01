@@ -1,0 +1,14 @@
+node_modules/
+.runtime/
+connection.md
+bin/*.exe
+*.log
+*.pid
+.env
+.env.*
+!.env.example
+.kiro/
+*.rbxl
+*.rbxlx
+*.rbxm
+*.rbxmx
